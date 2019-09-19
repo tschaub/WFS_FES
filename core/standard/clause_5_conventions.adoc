@@ -43,7 +43,7 @@ For simplicity, this document in general only refers to the HTTP protocol. This 
 
 === HTTP URIs
 
-This document does not restrict the lexical space of URIs used in the API beyond the requirements of the <<rc2616,HTTP>> and <<rc3986,URI Syntax>> IETF RFCs. If URIs include reserved characters that are delimiters in the URI subcomponent, these have to be percent-encoded. See Clause 2 of <<rfc3986,RFC 3986>> for details.
+This document does not restrict the lexical space of URIs used in the API beyond the requirements of the <<rc2616,HTTP>> and <<rc3986,URI Syntax>> IETF RFCs. If data to be encoded in a URI component includes reserved characters for that component, these have to be percent-encoded. See Clause 2 of <<rfc3986,RFC 3986>> for details.
 
 === API definition
 
