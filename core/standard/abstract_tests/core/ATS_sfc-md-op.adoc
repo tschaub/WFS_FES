@@ -4,7 +4,7 @@
 ^|*Abstract Test {counter:ats-id}* |*/ats/core/sfc-md-op*
 ^|Test Purpose |Validate that the Collection content can be retrieved from the expected location.
 ^|Requirement |<<req_core_sfc-md-op,/req/core/sfc-md-op>>
-^|Test Method |For every Feature Collection described in the Collections content, issue an HTTP GET request to the URL `/collections/{collectionId}` where `{collectionId}` is the `id` property for the collection.
+^|Test Method |For every Feature Collection described in the Collections content, issue an HTTP GET request to the URL `/collections/{collectionId}` where `{collectionId}` is the encoded `id` property for the collection.
 . Validate that a Collection was returned with a status code 200
 . Validate the contents of the returned document using test <<ats_core_sfc-md-success,/ats/core/sfc-md-success>>.
 |===

@@ -3,5 +3,5 @@
 |===
 ^|*Requirement {counter:req-id}* |*/req/core/sfc-md-op* 
 ^|A |The server SHALL support the HTTP GET operation at the path `/collections/{collectionId}`.
-^|B |The parameter `collectionId` is each `id` property in the feature collections response (JSONPath: `$.collections[*].id`).
+^|B |The parameter `collectionId` is the encoded `id` property in the feature collections response (JSONPath: `$.collections[*].id`).
 |===

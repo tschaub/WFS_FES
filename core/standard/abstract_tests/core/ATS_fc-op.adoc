@@ -4,7 +4,7 @@
 ^|*Abstract Test {counter:ats-id}* |*/ats/core/fc-op*
 ^|Test Purpose |Validate that features can be identified and extracted from a Collection using query parameters.
 ^|Requirement |<<req_core_fc-op,/req/core/fc-op>>
-^|Test Method |. For every feature collection identified in Collections, issue an HTTP GET request to the URL `/collections/{collectionId}/items` where `{collectionId}` is the `id` property for a Collection described in the Collections content.
+^|Test Method |. For every feature collection identified in Collections, issue an HTTP GET request to the URL `/collections/{collectionId}/items` where `{collectionId}` is the encoded `id` property for a Collection described in the Collections content.
 . Validate that a document was returned with a status code 200.
 . Validate the contents of the returned document using test <<ats_core_fc-response,/ats/core/fc-response>>.
 

@@ -21,7 +21,7 @@ Enterprise Architect.
 ![Resources specified in Part 1: Core](resources.png)
 
 Note that the path parameters `collectionId` and `featureId` are
-the `id` properties from the `Collection` and `Feature` resources
+the encoded `id` properties from the `Collection` and `Feature` resources
 respectively.
 
 ## Data types specified in Part 1: Core
